@@ -25,7 +25,7 @@ Use oEditContextMenu.pkg
 Use oDEOEditContextMenu17.pkg
 
 Object oMain is a Panel
-    Set Label to "Order Entry Sample Application"
+    Set Label to "Order Entry Sample Application In Git"
     Set Location to 4 3
     Set Size to 300 450
 
