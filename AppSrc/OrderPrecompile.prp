@@ -1,5 +1,5 @@
-Compiling Program: c:\dataflex\dataflex 18.2 examples\order entry\AppSrc\OrderPrecompile.pkg
-Memory Available: 1471864832
+Compiling Program: C:\Test\Order Entry git\AppSrc\ORDERPRECOMPILE.PKG
+Memory Available: 2147483646
 1>Use DfAllent.pkg
 Using pre-compiled package DFALLENT.PKG
 Including file: dfallent.pkd    (C:\Program Files (x86)\DataFlex 18.2\Pkg\dfallent.pkd)
@@ -559,7 +559,7 @@ Including file: cCJMDIWindowsMenuItem.pkg    (C:\Program Files (x86)\DataFlex 18
 75734>>>>>
 75734>
 Summary
-Memory Available: 1435549696
+Memory Available: 2147483646
 Total Warnings : 0
 Total Errors   : 0
 Total Symbols  : 43469
