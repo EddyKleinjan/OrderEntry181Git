@@ -5,6 +5,7 @@ Use dfTabDlg.pkg
 Use dfCEntry.pkg
 Use cDbTextEdit.Pkg
 Use Customer.DD
+Use cSplitButton.pkg
 
 DEFERRED_VIEW Activate_oCustomerView FOR ;
 ;
@@ -149,6 +150,15 @@ Object oCustomerView is a dbView
             End_Object    // oCustomer_Balance
 
         End_Object    // oBalances_TP
+
+        Object oDbTabPage1 is a dbTabPage
+            Set Label to 'oDbTabPage1'
+
+            Object oSplitButton1 is a cSplitButton
+                Set Location to 36 96
+                Set Label to 'oSplitButton1'
+            End_Object
+        End_Object
 
         Object oComments_TP is a dbTabPage
             Set Label to "Comments"
