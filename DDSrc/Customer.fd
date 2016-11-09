@@ -14,3 +14,4 @@
 #REPLACE Customer.Balance |FN25,12
 #REPLACE Customer.Comments |FS25,13
 #REPLACE Customer.Status |FS25,14
+#REPLACE Customer.BSN |FS25,15

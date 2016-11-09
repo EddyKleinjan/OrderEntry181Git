@@ -7,17 +7,8 @@ GroupCount=1
 HorizontalGroups=1
 [TabGroup0]
 GroupSize=40
-SelectedTab=1
+SelectedTab=3
 [Window0]
-Filename=Workspace Dashboard
-ViewType=101
-Top=24
-Left=4
-Bottom=475
-Right=1090
-TabIndex=0
-TabGroup=0
-[Window1]
 Filename=C:\Test\Order Entry git\AppSrc\Order.src
 ViewType=1
 Top=24
@@ -27,4 +18,31 @@ Right=1090
 CursorLine=0
 CursorColumn=0
 TabIndex=1
+TabGroup=0
+[Window1]
+Filename=Workspace Dashboard
+ViewType=101
+Top=24
+Left=4
+Bottom=475
+Right=1090
+TabIndex=0
+TabGroup=0
+[Window2]
+Filename=Customer
+ViewType=4
+Top=24
+Left=4
+Bottom=475
+Right=1090
+TabIndex=2
+TabGroup=0
+[Window3]
+Filename=C:\Test\Order Entry git\AppSrc\Customer.vw
+ViewType=2
+Top=24
+Left=4
+Bottom=475
+Right=1090
+TabIndex=3
 TabGroup=0

@@ -174,4 +174,11 @@ Object oCustomerView is a dbView
 
     End_Object    // oCustTD
 
+    Object oCustomer_BSN is a dbForm
+        Entry_Item Customer.BSN
+        Set Location to 5 192
+        Set Size to 13 66
+        Set Label to "BSN:"
+    End_Object
+
 CD_End_Object    // oCustomerView
