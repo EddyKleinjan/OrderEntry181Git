@@ -1,0 +1,23 @@
+14-10-2016 16:02:59,021 - Opening WS file C:\DataFlex\DataFlex 18.2 Examples\Order Entry\Programs\Config.ws
+14-10-2016 16:02:59,027 - Opening workspace C:\DataFlex\DataFlex 18.2 Examples\Order Entry\Programs\Config.ws
+14-10-2016 16:02:59,063 - Start reindexing
+14-10-2016 16:02:59,076 - Opening Users (File Number 19)
+14-10-2016 16:02:59,109 - Reindexing Users
+14-10-2016 16:02:59,142 - Opening OrdSys (File Number 20)
+14-10-2016 16:02:59,147 - Reindexing OrdSys
+14-10-2016 16:02:59,166 - Opening Vendor (File Number 21)
+14-10-2016 16:02:59,177 - Reindexing Vendor
+14-10-2016 16:02:59,207 - Opening Invt (File Number 22)
+14-10-2016 16:02:59,229 - Reindexing Invt
+14-10-2016 16:02:59,249 - Opening Customer (File Number 25)
+14-10-2016 16:02:59,26 - Reindexing Customer
+14-10-2016 16:02:59,331 - Opening SalesP (File Number 27)
+14-10-2016 16:02:59,615 - Reindexing SalesP
+14-10-2016 16:02:59,657 - Opening OrderHea (File Number 30)
+14-10-2016 16:02:59,683 - Reindexing OrderHea
+14-10-2016 16:02:59,751 - Opening OrderDtl (File Number 31)
+14-10-2016 16:02:59,779 - Reindexing OrderDtl
+14-10-2016 16:02:59,836 - Opening CodeType (File Number 253)
+14-10-2016 16:02:59,879 - Reindexing CodeType
+14-10-2016 16:02:59,965 - Opening CodeMast (File Number 254)
+14-10-2016 16:02:59,985 - Reindexing CodeMast
