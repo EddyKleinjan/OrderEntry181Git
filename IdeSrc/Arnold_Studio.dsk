@@ -1,0 +1,19 @@
+[Workspace]
+CurrentProject=Order.src
+Location=C:\Projects\OrderEntry181Git\IdeSrc\Arnold_Studio.dsk
+CreateNew=-1
+[TabWindows]
+GroupCount=1
+HorizontalGroups=1
+[TabGroup0]
+GroupSize=40
+SelectedTab=0
+[Window0]
+Filename=Workspace Dashboard
+ViewType=101
+Top=24
+Left=4
+Bottom=691
+Right=1056
+TabIndex=0
+TabGroup=0
