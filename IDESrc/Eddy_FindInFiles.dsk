@@ -1,0 +1,13 @@
+[Header]
+Mask=*.src;*.vw;*.sl;*.dg;*.rv;*.bp;*.pkg;*.wo;*.dd;*.inc;*.tpl;*.dfo;*.asp;*.asa;*.html;*.css;*.js
+Active=0
+SubDirectories=1
+WholeWordOnly=0
+SearchWhere=0
+Location=C:\Test\Order Entry git\IdeSrc\Eddy_FindInFiles.dsk
+[C:\Test\Order Entry git\AppSrc]
+IsEnabled=1
+[C:\Test\Order Entry git\DdSrc]
+IsEnabled=1
+[C:\Test\Order Entry git\AppHtml]
+IsEnabled=1
