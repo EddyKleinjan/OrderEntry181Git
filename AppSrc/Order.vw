@@ -186,6 +186,15 @@ Object oOrderEntryView is a dbView
 
         End_Object    // oOrderHea_Ship_Via
 
+        Object oTextBox1 is a TextBox
+            Set Size to 10 31
+            Set Location to 4 4
+            Set Label to "Hallo!!"
+            Set Justification_Mode to JMode_Right
+            Set FontWeight to fw_Bold
+            Set FontPointHeight to 90
+        End_Object
+
     End_Object    // oDbContainer3d1
 
     Object oOrderDtl_Grid is a cDbCJGrid
