@@ -9,7 +9,7 @@ CD_Popup_Object Customer_sl is a dbModalPanel
 
     Set Border_Style to Border_Thick
     Set Minimize_Icon to False
-    Set Label to "Customer List"
+    Set Label to "Customer List by john"
     Set Size to 134 238
     Set Location to 4 5
     Set piMinSize to 134 238
