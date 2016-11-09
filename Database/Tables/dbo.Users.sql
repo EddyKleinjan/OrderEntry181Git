@@ -1,0 +1,16 @@
+CREATE TABLE [dbo].[Users]
+(
+[RECNUM] [int] NOT NULL IDENTITY(1, 1),
+[LoginName] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__Users__LoginName__22AA2996] DEFAULT (''),
+[Password] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__Users__Password__239E4DCF] DEFAULT (''),
+[Rights] [smallint] NOT NULL CONSTRAINT [DF__Users__Rights__24927208] DEFAULT ((0)),
+[Full_Name] [char] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__Users__Full_Name__25869641] DEFAULT (''),
+[Last_Login] [datetime] NOT NULL CONSTRAINT [DF__Users__Last_Logi__267ABA7A] DEFAULT ('1753-01-01')
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Users] ADD CONSTRAINT [Users001_PK] PRIMARY KEY CLUSTERED  ([LoginName]) ON [PRIMARY]
+GO
+CREATE UNIQUE NONCLUSTERED INDEX [Users002] ON [dbo].[Users] ([LoginName], [Password]) ON [PRIMARY]
+GO
+CREATE UNIQUE NONCLUSTERED INDEX [Users000] ON [dbo].[Users] ([RECNUM]) ON [PRIMARY]
+GO

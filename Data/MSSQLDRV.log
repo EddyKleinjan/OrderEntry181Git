@@ -1,0 +1,218 @@
+////////////////////////////////////////////////////////////
+Starting conversion at 9-11-2016 18:09:24,128
+////////////////////////////////////////////////////////////
+
+------------------------------------------------------------
+Converting Recnum table: 19, Users, Users
+Start time: 9-11-2016 18:09:24,13
+Starting restructure transaction.
+Creating new table.
+Creating primary key Users001_PK.
+Creating index Users002.
+Creating index Users000.
+Creating intermediate file.
+Commit restructure transaction.
+Temporary delete of all indices of table Users.
+Dropping primary key Users001_PK.
+Dropping index Users000.
+Dropping index Users002.
+All records copied.
+Re-creating temporary deleted indices of table Users.
+Creating primary key Users001_PK.
+Creating index Users000.
+Creating index Users002.
+End time: 9-11-2016 18:09:24,908
+Total time to convert table: 0:0:0:0,778
+
+------------------------------------------------------------
+Converting Recnum table: 20, OrdSys, Order Entry System Table
+Start time: 9-11-2016 18:09:24,911
+Starting restructure transaction.
+Creating new table.
+Creating intermediate file.
+Commit restructure transaction.
+Temporary delete of all indices of table OrdSys.
+All records copied.
+Re-creating temporary deleted indices of table OrdSys.
+End time: 9-11-2016 18:09:25,004
+Total time to convert table: 0:0:0:0,093
+
+------------------------------------------------------------
+Converting Recnum table: 21, Vendor, Vendors
+Start time: 9-11-2016 18:09:25,009
+Starting restructure transaction.
+Creating new table.
+Creating primary key Vendor001_PK.
+Creating index Vendor002.
+Creating index Vendor000.
+Creating intermediate file.
+Commit restructure transaction.
+Temporary delete of all indices of table Vendor.
+Dropping primary key Vendor001_PK.
+Dropping index Vendor000.
+Dropping index Vendor002.
+All records copied.
+Re-creating temporary deleted indices of table Vendor.
+Creating primary key Vendor001_PK.
+Creating index Vendor000.
+Creating index Vendor002.
+End time: 9-11-2016 18:09:25,135
+Total time to convert table: 0:0:0:0,126
+
+------------------------------------------------------------
+Converting Recnum table: 22, Invt, Inventory Parts
+Start time: 9-11-2016 18:09:25,139
+Starting restructure transaction.
+Creating new table.
+Creating primary key Invt001_PK.
+Creating index Invt002.
+Creating index Invt003.
+Creating index Invt000.
+Creating intermediate file.
+Commit restructure transaction.
+Temporary delete of all indices of table Invt.
+Dropping primary key Invt001_PK.
+Dropping index Invt000.
+Dropping index Invt002.
+Dropping index Invt003.
+All records copied.
+Re-creating temporary deleted indices of table Invt.
+Creating primary key Invt001_PK.
+Creating index Invt000.
+Creating index Invt002.
+Creating index Invt003.
+End time: 9-11-2016 18:09:25,295
+Total time to convert table: 0:0:0:0,156
+
+------------------------------------------------------------
+Converting Recnum table: 25, Customer, Customers
+Start time: 9-11-2016 18:09:25,302
+Starting restructure transaction.
+Creating new table.
+Creating primary key Customer001_PK.
+Creating index Customer002.
+Creating index Customer003.
+Creating index Customer000.
+Creating intermediate file.
+Commit restructure transaction.
+Temporary delete of all indices of table Customer.
+Dropping primary key Customer001_PK.
+Dropping index Customer000.
+Dropping index Customer002.
+Dropping index Customer003.
+All records copied.
+Re-creating temporary deleted indices of table Customer.
+Creating primary key Customer001_PK.
+Creating index Customer000.
+Creating index Customer002.
+Creating index Customer003.
+End time: 9-11-2016 18:09:25,451
+Total time to convert table: 0:0:0:0,149
+
+------------------------------------------------------------
+Converting Recnum table: 27, SalesP, Sales People
+Start time: 9-11-2016 18:09:25,454
+Starting restructure transaction.
+Creating new table.
+Creating primary key SalesP001_PK.
+Creating index SalesP002.
+Creating index SalesP000.
+Creating intermediate file.
+Commit restructure transaction.
+Temporary delete of all indices of table SalesP.
+Dropping primary key SalesP001_PK.
+Dropping index SalesP000.
+Dropping index SalesP002.
+All records copied.
+Re-creating temporary deleted indices of table SalesP.
+Creating primary key SalesP001_PK.
+Creating index SalesP000.
+Creating index SalesP002.
+End time: 9-11-2016 18:09:25,584
+Total time to convert table: 0:0:0:0,13
+
+------------------------------------------------------------
+Converting Recnum table: 30, OrderHea, Order Header
+Start time: 9-11-2016 18:09:25,587
+Starting restructure transaction.
+Creating new table.
+Creating primary key OrderHea001_PK.
+Creating index OrderHea002.
+Creating index OrderHea003.
+Creating index OrderHea000.
+Creating intermediate file.
+Commit restructure transaction.
+Temporary delete of all indices of table OrderHea.
+Dropping primary key OrderHea001_PK.
+Dropping index OrderHea000.
+Dropping index OrderHea002.
+Dropping index OrderHea003.
+All records copied.
+Re-creating temporary deleted indices of table OrderHea.
+Creating primary key OrderHea001_PK.
+Creating index OrderHea000.
+Creating index OrderHea002.
+Creating index OrderHea003.
+End time: 9-11-2016 18:09:25,789
+Total time to convert table: 0:0:0:0,202
+
+------------------------------------------------------------
+Converting Recnum table: 31, OrderDtl, Order Detail
+Start time: 9-11-2016 18:09:25,793
+Starting restructure transaction.
+Creating new table.
+Creating primary key OrderDtl001_PK.
+Creating index OrderDtl000.
+Creating intermediate file.
+Commit restructure transaction.
+Temporary delete of all indices of table OrderDtl.
+Dropping primary key OrderDtl001_PK.
+Dropping index OrderDtl000.
+All records copied.
+Re-creating temporary deleted indices of table OrderDtl.
+Creating primary key OrderDtl001_PK.
+Creating index OrderDtl000.
+End time: 9-11-2016 18:09:25,982
+Total time to convert table: 0:0:0:0,189
+
+------------------------------------------------------------
+Converting Recnum table: 253, CodeType, Code Maintenance Type Table
+Start time: 9-11-2016 18:09:25,985
+Starting restructure transaction.
+Creating new table.
+Creating primary key CodeType001_PK.
+Creating index CodeType000.
+Creating intermediate file.
+Commit restructure transaction.
+Temporary delete of all indices of table CodeType.
+Dropping primary key CodeType001_PK.
+Dropping index CodeType000.
+All records copied.
+Re-creating temporary deleted indices of table CodeType.
+Creating primary key CodeType001_PK.
+Creating index CodeType000.
+End time: 9-11-2016 18:09:26,109
+Total time to convert table: 0:0:0:0,124
+
+------------------------------------------------------------
+Converting Recnum table: 254, CodeMast, Code Maintenance Code Table
+Start time: 9-11-2016 18:09:26,112
+Starting restructure transaction.
+Creating new table.
+Creating primary key CodeMast001_PK.
+Creating index CodeMast000.
+Creating intermediate file.
+Commit restructure transaction.
+Temporary delete of all indices of table CodeMast.
+Dropping primary key CodeMast001_PK.
+Dropping index CodeMast000.
+All records copied.
+Re-creating temporary deleted indices of table CodeMast.
+Creating primary key CodeMast001_PK.
+Creating index CodeMast000.
+End time: 9-11-2016 18:09:26,237
+Total time to convert table: 0:0:0:0,125
+////////////////////////////////////////////////////////////
+Finished conversion at 9-11-2016 18:09:26,242
+Total conversion time: 0:0:0:2,113
+////////////////////////////////////////////////////////////

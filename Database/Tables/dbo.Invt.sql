@@ -1,0 +1,19 @@
+CREATE TABLE [dbo].[Invt]
+(
+[RECNUM] [int] NOT NULL IDENTITY(1, 1),
+[Item_ID] [char] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__Invt__Item_ID__38996AB5] DEFAULT (''),
+[Description] [char] (35) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__Invt__Descriptio__398D8EEE] DEFAULT (''),
+[Vendor_ID] [int] NOT NULL CONSTRAINT [DF__Invt__Vendor_ID__3A81B327] DEFAULT ((0)),
+[Vendor_Part_ID] [char] (15) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL CONSTRAINT [DF__Invt__Vendor_Par__3B75D760] DEFAULT (''),
+[Unit_Price] [numeric] (8, 2) NOT NULL CONSTRAINT [DF__Invt__Unit_Price__3C69FB99] DEFAULT ((0)),
+[On_Hand] [int] NOT NULL CONSTRAINT [DF__Invt__On_Hand__3D5E1FD2] DEFAULT ((0))
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Invt] ADD CONSTRAINT [Invt001_PK] PRIMARY KEY CLUSTERED  ([Item_ID]) ON [PRIMARY]
+GO
+CREATE UNIQUE NONCLUSTERED INDEX [Invt003] ON [dbo].[Invt] ([Description], [Item_ID]) ON [PRIMARY]
+GO
+CREATE UNIQUE NONCLUSTERED INDEX [Invt000] ON [dbo].[Invt] ([RECNUM]) ON [PRIMARY]
+GO
+CREATE UNIQUE NONCLUSTERED INDEX [Invt002] ON [dbo].[Invt] ([Vendor_ID], [Vendor_Part_ID], [Item_ID]) ON [PRIMARY]
+GO
